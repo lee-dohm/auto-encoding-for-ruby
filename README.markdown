@@ -31,7 +31,7 @@ Open your terminal application and go to your Packages directory, whose location
 After this, you just need to clone this repository:
 
 ```shell
-git clone git://github.com/elomarns/auto-encoding-for-ruby.git "Auto Encoding for Ruby"
+git clone git://github.com/lee-dohm/auto-encoding-for-ruby.git "Auto Encoding for Ruby"
 ```
 
 ### Without Git
@@ -40,7 +40,7 @@ Click on the nice cloud icon above, and download the zip file containing this pl
 
 ## How to Use
 
-Auto Encoding for Ruby will add a #encoding: utf-8 declaration on top of Ruby files on these situations:
+Auto Encoding for Ruby will add a `# encoding: UTF-8` declaration on top of Ruby files on these situations:
 
 * Just after you type the first non-ASCII character of the file;
 * When you open a file with non-ASCII characters and no encoding declaration.
@@ -52,6 +52,12 @@ It will also remove the encoding declaration on the following cases:
 
 In other words, just write your code as you would without the plugin and you'll be fine.
 
-## Licensing
+### Changing the Encoding Declaration Format
 
-You're free to do whatever you want with this plugin. How about this as a license?
+The format of the encoding declaration is configurable to any Ruby-allowable declaration.  Simply edit the `Auto Encoding For Ruby.sublime-settings` file in your User settings folder to be the declaration you prefer.
+
+# Information
+
+Source: https://github.com/lee-dohm/auto-encoding-for-ruby
+
+Authors: [Elomar Nascimento dos Santos](https://github.com/elomarns), [Lee Dohm](https://github.com/lee-dohm)
