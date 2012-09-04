@@ -1,0 +1,4 @@
+{
+    "format": "# encoding: UTF-8",
+    "pattern": "#.*coding:\\s*utf-8"
+}
